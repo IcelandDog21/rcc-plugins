@@ -1,4 +1,5 @@
 # rcc-plugins
+# 介绍
 
 [![Redstone Circuit Communication](https://img.shields.io/badge/Redstone_Circuit_Communication-red?style=for-the-badge&logo=tencent%20qq)
 ](https://qm.qq.com/q/2BMxHEmRmM)  
