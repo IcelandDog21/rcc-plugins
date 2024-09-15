@@ -10,4 +10,4 @@
 
 这个项目的存在要感谢所有的贡献者。
 
-![Contributors](https://github.com/IcelangDog21/rcc-plugins/graphs/contributors)
+![Contributors](https://contrib.rocks/image?repo=IcelangDog21/rcc-plugins)
