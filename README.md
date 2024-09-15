@@ -4,7 +4,7 @@
 ](https://qm.qq.com/q/2BMxHEmRmM)  
 
 
-![1](https://socialify.git.ci/IcelangDog21/rcc-plugins/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
+![rcc-plugins](https://socialify.git.ci/IcelangDog21/rcc-plugins/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 
 ### 贡献者
 
