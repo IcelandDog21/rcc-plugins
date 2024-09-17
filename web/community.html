@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" id="my-style-sheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="./index.js" type="text/javascript"></script>
+  <title>Redstone Circuit Communication</title>
+</head>
+
+<body>
+  <header>
+    <div class="sidebar-main">
+      <div>
+        <img id="img" class="sidebar-img" src="./logo.png">
+      </div>
+      <div class="sidebar-text">
+        <a href="index.html">主页 </a>
+      </div>
+      <div class="sidebar-text">
+        <a href="useful links.html">常用链接 </a>
+      </div>
+      <div class="sidebar-text">
+        <a href="community.html">社区 </a>
+      </div>
+      <div class="sidebar-text">
+        <a href="server.html">服务器 </a>
+      </div>
+      <div class="sidebar-text">
+        <a href="https://qm.qq.com/q/uEwZgXd1cc" target="_blank">加入我们 </a>
+      </div>
+    </div>
+  </header>
+  <div class="typing">
+    <div class="typing-box">
+      <a class="typing-text" id="typing-effect"></a>
+    </div>
+  </div>
+  <div id="friend-links" class="header-friend-links">
+  </div>
+
+  <script>
+    alert("中秋快乐!")
+    // 使用类选择器来选取所有可点击的图片
+    var buttons = document.querySelectorAll('.sidebar-img');
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function (event) {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

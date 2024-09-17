@@ -1,0 +1,25 @@
+{
+  "name": "rcc-plugins",
+  "version": "1.0.0",
+  "description": "RCC-plugins",
+  "main": "rcc-plugins.js",
+  "scripts": {
+    "test": "rcc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IcelandDog21/rcc-plugins.git"
+  },
+  "keywords": [
+    "rcc"
+  ],
+  "author": "RCC development team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IcelandDog21/rcc-plugins/issues"
+  },
+  "homepage": "https://github.com/IcelandDog21/rcc-plugins#readme",
+  "dependencies": {
+    "mime": "^4.0.4"
+  }
+}
