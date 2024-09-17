@@ -1,0 +1,126 @@
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/* 当屏幕宽度小于1024px时 */
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url('https://moe.jitsu.top/img/?sort=mp');
+  }
+
+  .sidebar-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translate(0, -50%);
+  }
+}
+
+/* 当屏幕宽度大于1025px时 */
+@media screen and (min-width: 1025px) {
+  body {
+    background-image: url('https://moe.jitsu.top/img/?sort=pc');
+    cursor: url('./image1.png'), auto;
+  }
+
+  .sidebar-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .sticky-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 3px solid rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+
+  .sidebar-img,
+  .sticky-img {
+    transition: all 0.5s ease;
+  }
+
+}
+
+.sidebar-main {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  /* 移除内边距 */
+  height: 70px;
+  transition: background-color 0.5s ease;
+  justify-content: flex-end;
+  position: fixed;
+}
+
+.sidebar-main>* {
+  display: inline-block;
+}
+
+.sidebar-text {
+  display: flex;
+  vertical-align: top;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+  width: 74px;
+  height: 70px;
+  background-color: rgb(201, 201, 201, 0.4);
+}
+
+.sidebar-text:hover {
+  background-color: rgba(87, 87, 87, 0.4);
+}
+
+.sidebar-text a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 17px;
+
+  display: grid;
+  place-items: center; /* 同时设置水平和垂直居中 */
+
+  -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+  /* Chrome, Safari, Edge */
+  -moz-text-stroke: 0.8px rgb(255, 255, 255);
+  /* Firefox */
+  -ms-text-stroke: 0.8px rgb(255, 255, 255);
+  /* Internet Explorer */
+
+}
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px) brightness(80%);
+  transition: background-color 0.5s ease;
+}
+
+
+
+
+
+.typing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header-friend-links {
+  height: 100vh;
+}
